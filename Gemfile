@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.0.0'
-gem 'mongoid'
+gem 'mongoid', github: 'mongoid/mongoid'
 gem 'sass-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
@@ -12,7 +12,8 @@ gem 'jbuilder', '~> 1.2'
 gem 'thin'
 gem 'haml-rails'
 gem 'zurb-foundation'
-gem 'compass-rails'
+gem 'compass-rails', github: 'milgner/compass-rails', branch: 'rails4'
+gem 'bson_ext'
 
 group :development do
   gem 'binding_of_caller'
@@ -27,12 +28,11 @@ group :development do
 end
 
 group :test, :development do
-  gem 'cucumber-rails'
+  gem 'cucumber-rails', github: 'cucumber/cucumber-rails', branch: 'master_rails4_test'
   gem 'rspec-rails'
   gem 'factory_girl'
   gem 'capybara'
   gem 'database_cleaner'
   gem 'faker'
   gem 'launchy'
-  gem 'cucumber-screenshot'
 end
