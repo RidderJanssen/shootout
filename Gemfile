@@ -28,11 +28,14 @@ group :development do
 end
 
 group :test, :development do
-  gem 'cucumber-rails', github: 'cucumber/cucumber-rails', branch: 'master_rails4_test'
   gem 'rspec-rails'
   gem 'factory_girl'
   gem 'capybara'
   gem 'database_cleaner'
   gem 'faker'
   gem 'launchy'
+end
+
+group :test do
+  gem 'cucumber-rails', github: 'cucumber/cucumber-rails', branch: 'master_rails4_test'
 end
