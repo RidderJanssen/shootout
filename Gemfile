@@ -37,5 +37,5 @@ group :test, :development do
 end
 
 group :test do
-  gem 'cucumber-rails', github: 'cucumber/cucumber-rails', branch: 'master_rails4_test'
+  gem 'cucumber-rails', github: 'cucumber/cucumber-rails', branch: 'master_rails4_test', require: false
 end
