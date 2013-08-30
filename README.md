@@ -1,6 +1,6 @@
 # Shootout
 
-TODO: code climate
+[![Code Climate](https://codeclimate.com/github/roguerb/shootout.png)](https://codeclimate.com/github/roguerb/shootout)
 
 # Overview
 
