@@ -32,8 +32,23 @@ Play
 * Bang!
 * Missed
 
+## Mockups
 
-## More complicated
+<div style="text-align:center">
+
+/towns/index
+
+    <img src="doc/mockups/mockup-towns-index.png" style="width: 800px; border: 1px solid #ebebeb; padding: 2px" />
+    <hr />
+
+/towns/show
+
+    <img src="doc/mockups/mockup-towns-show.png" style="width: 800px; border: 1px solid #ebebeb; padding: 2px" />
+    <hr />
+
+</div>
+
+## More complicated version
 
 See TODO: insert link here to pdf with rules for Bang!
 
