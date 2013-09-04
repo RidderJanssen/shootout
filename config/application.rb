@@ -24,5 +24,22 @@ module Shootout
     # The default locale is :en and all translations from config/locales/*.rb,yml are auto loaded.
     # config.i18n.load_path += Dir[Rails.root.join('my', 'locales', '*.{rb,yml}').to_s]
     # config.i18n.default_locale = :de
+
+    config.generators do |g|
+      g.helper false
+      g.assets false
+      g.view_specs false
+      g.stylesheets false
+      g.test_framework :rspec,
+        fixture: false,
+        fixture_replacement: nil,
+        view_specs: false,
+        helper_specs: false,
+        routing_specs: false,
+        controller_specs: true,
+        request_specs: false
+      g.integration_tool :rspec
+      g.performance_tool :rspec
+    end
   end
 end
