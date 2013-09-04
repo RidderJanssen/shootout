@@ -1,7 +1,7 @@
 Shootout::Application.routes.draw do
-  resources :cards, only: [:index]
+  resources :games, only: [:index]
 
-  root "cards#index"
+  root "games#index"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
