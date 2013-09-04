@@ -15,13 +15,13 @@ Shootout is a multi-player card game.
 * Once game is in play
   * See 'Simple Game' below
 
-## Simple Game 
+## Simple Game
 
 3 or more players are required
 
 Deal 3 cards to each player to start
 
-Play 
+Play
 
 * play any card from your hand on another player
   * that player can optionally play a response card (if valid)
