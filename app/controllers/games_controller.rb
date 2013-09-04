@@ -1,5 +1,5 @@
-class CardsController < ApplicationController
+class GamesController < ApplicationController
   def index
-    @hands = 4.times.map { Hand.new }
+    @players = 4.times.map { |n| Player.new("Player #{n + 1}") }
   end
 end

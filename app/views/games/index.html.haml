@@ -1,4 +1,6 @@
-- @hands.each do |hand|
-  .hand
-    - hand.cards.each do |card|
-      .card= card
+- @players.each do |player|
+  .player
+    = player.name
+    .hand
+      - player.current_hand.each do |card|
+        .card= card
