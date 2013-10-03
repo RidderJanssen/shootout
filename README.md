@@ -6,6 +6,10 @@
 
 Shootout is a multi-player card game.
 
+# Notes
+
+research: Event-Machine/thin with web-sockets - https://blog.engineyard.com/2013/getting-started-with-ruby-and-websockets 
+
 # Application
 
 * Homepage will present a list of games
